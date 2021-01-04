@@ -1,1 +1,59 @@
+html {
+  background-color: #525252;
+}
+#app{
+  border-style: solid 1px;
+  border-radius: 9px;
+  
+}
+#app input{
+  margin-top: 2rem;
+  font-size:1.4rem;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0;
+  border: solid 2px #444;
+  outline: 0;
+  
+}
+#app li{
+  color: #496afc;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  
+}
+#app ul{
+  list-style: none;
 
+}
+#todolist{
+  text-align:justify;
+
+}
+a{
+  color: #ff0000;
+
+}
+#todos{
+  color: #ffffff;
+  cursor: default;
+  
+}
+#app button{
+  font-size: 1.4rem;
+  border-radius: 8px;
+  border: solid 2px #444;
+  margin: 3px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  
+}
+#app button:hover{
+  cursor:pointer;
+  border: 2px solid red;
+  background-color: rgb(248, 254, 255);
+  
+}
+#app input:focus{
+  border: 2px solid red;
+  
+}
