@@ -1,59 +1,75 @@
-html {
-  background-color: #525252;
+html body {
+    background-color: rgb(20, 20, 20);
+    font-family: 'Poppins', sans-serif;
 }
-#app{
-  border-style: solid 1px;
-  border-radius: 9px;
-  
-}
-#app input{
-  margin-top: 2rem;
-  font-size:1.4rem;
-  border-radius: 8px;
-  box-shadow: 0 0 0 0;
-  border: solid 2px #444;
-  outline: 0;
-  
-}
-#app li{
-  color: #496afc;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2rem;
-  
-}
-#app ul{
-  list-style: none;
 
+.CheckedTodo {
+    text-decoration: line-through!important;
+    color: rgb(77, 77, 77) !important;
 }
-#todolist{
-  text-align:justify;
 
+.check-complete {
+    width: 17px;
+    height: 17px;
 }
-a{
-  color: #ff0000;
 
+#app {
+    border-style: solid 1px;
+    border-radius: 9px;
+    margin: 5% 25%;
+    padding: 1rem;
 }
-#todos{
-  color: #ffffff;
-  cursor: default;
-  
+
+#app input {
+    margin-top: 2rem;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 0;
+    border: solid 2px #444;
+    outline: 0;
+    padding: 2px;
 }
-#app button{
-  font-size: 1.4rem;
-  border-radius: 8px;
-  border: solid 2px #444;
-  margin: 3px;
-  box-shadow: 0 0 0 0;
-  outline: 0;
-  
+
+#app li {
+    color: #496afc;
+    font-size: 1.2rem;
 }
-#app button:hover{
-  cursor:pointer;
-  border: 2px solid red;
-  background-color: rgb(248, 254, 255);
-  
+
+#app ul {
+    list-style: none;
 }
-#app input:focus{
-  border: 2px solid red;
-  
+
+#todolist {
+    text-align: justify;
+}
+
+a {
+    color: #ff0000;
+}
+
+#todos {
+    color: #ffffff;
+    cursor: default;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#app button {
+    font-size: 1.4rem;
+    border-radius: 8px;
+    border: solid 2px #444;
+    margin: 3px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#app button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgb(10, 10, 15);
+    background-color: rgb(248, 254, 255);
+}
+
+#app input:focus {
+    box-shadow: 0 0 5px 1px rgb(10, 10, 15);
 }
