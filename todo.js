@@ -8,7 +8,7 @@ var completedTodos = localStorage.getItem('completed') || [];
 renderTodos(); //primeira Render da pagina
 function renderTodos() {
     listElement.innerHTML = '';
-    var completedTodos = localStorage.getItem('completed');
+ 
     for (var todo of todos) {
         var todoElement = document.createElement('li');
         inputElement.value = '';
