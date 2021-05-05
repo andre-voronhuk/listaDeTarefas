@@ -4,7 +4,7 @@ var buttonElement = document.querySelector('#app button');
 var completeElement = document.querySelector('check-complete');
 
 var todos = JSON.parse(localStorage.getItem('list_todos')) || []; //afazeres Padrao
-var completedTodos = localStorage.getItem('completed'); //afazeres Padrao
+var completedTodos = localStorage.getItem('completed') || [];
 renderTodos(); //primeira Render da pagina
 function renderTodos() {
     listElement.innerHTML = '';
