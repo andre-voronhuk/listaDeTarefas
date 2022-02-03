@@ -58,8 +58,6 @@
     }
     
     #app li {
-        /* color: #496afc; */
-        /* display: flex; */
         font-size: 1.2rem;
         border-radius: 3px;
         padding: 1%;
@@ -115,9 +113,4 @@
     
     #app input:hover {
         cursor: pointer;
-    }
-    
-    #app input:checked {
-        border-inline-color: green;
-        fill: #ff0000;
     }
