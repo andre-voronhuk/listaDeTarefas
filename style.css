@@ -1,75 +1,123 @@
-html body {
-    background-color: rgb(20, 20, 20);
-    font-family: 'Poppins', sans-serif;
-}
-
-.CheckedTodo {
-    text-decoration: line-through!important;
-    color: rgb(77, 77, 77) !important;
-}
-
-.check-complete {
-    width: 17px;
-    height: 17px;
-}
-
-#app {
-    border-style: solid 1px;
-    border-radius: 9px;
-    margin: 5% 25%;
-    padding: 1rem;
-}
-
-#app input {
-    margin-top: 2rem;
-    font-size: 18px;
-    border-radius: 8px;
-    box-shadow: 0 0 0 0;
-    border: solid 2px #444;
-    outline: 0;
-    padding: 2px;
-}
-
-#app li {
-    color: #496afc;
-    font-size: 1.2rem;
-}
-
-#app ul {
-    list-style: none;
-}
-
-#todolist {
-    text-align: justify;
-}
-
-a {
-    color: #ff0000;
-}
-
-#todos {
-    color: #ffffff;
-    cursor: default;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#app button {
-    font-size: 1.4rem;
-    border-radius: 8px;
-    border: solid 2px #444;
-    margin: 3px;
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
-
-#app button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 5px 1px rgb(10, 10, 15);
-    background-color: rgb(248, 254, 255);
-}
-
-#app input:focus {
-    box-shadow: 0 0 5px 1px rgb(10, 10, 15);
-}
+    html body {
+        background-color: rgb(20, 20, 20);
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .input-group {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .input-group * {
+        height: 28% !important;
+        margin: 5px !important;
+    }
+    
+    .input-group button {
+        background-color: transparent;
+        color: #fff;
+        width: 17%;
+    }
+    
+    .input-group input {
+        border: #666 1px solid !important;
+        color: #fff;
+        width: 50% !important;
+        background-color: #222;
+    }
+    
+    .CheckedTodo {
+        text-decoration: line-through!important;
+        color: rgb(77, 77, 77) !important;
+    }
+    
+    .check-complete {
+        height: 80% !important;
+        height: 80% !important;
+    }
+    
+    #app {
+        border-style: solid 1px;
+        border-radius: 3px;
+        padding: 0.2rem;
+    }
+    
+    #app input {
+        width: 17%;
+        height: 1rem;
+        margin-top: 2rem;
+        font-size: 18px;
+        border-radius: 3px;
+        box-shadow: 0 0 0 0;
+        border: solid 2px #444;
+        outline: 0;
+        padding: 6px;
+        background-color: #222;
+    }
+    
+    #app li {
+        /* color: #496afc; */
+        /* display: flex; */
+        font-size: 1.2rem;
+        border-radius: 3px;
+        padding: 1%;
+        margin: 0.3rem;
+        background-color: #222;
+        border: 1px solid #555;
+        flex-wrap: wrap;
+    }
+    
+    #app li input {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #app ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+    
+    #todolist {
+        padding: 2%;
+    }
+    
+    a {
+        color: #ff0000;
+    }
+    
+    #todos {
+        color: #ffffff;
+        cursor: default;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+    
+    #app button {
+        display: flex;
+        font-size: 1.6rem;
+        border-radius: 8px;
+        border: solid 2px #444;
+        margin: 3px;
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
+    
+    #app button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 5px 1px rgb(10, 10, 15);
+        background-color: #222
+    }
+    
+    #app input:hover {
+        cursor: pointer;
+    }
+    
+    #app input:checked {
+        border-inline-color: green;
+        fill: #ff0000;
+    }

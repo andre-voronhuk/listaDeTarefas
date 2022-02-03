@@ -19,7 +19,7 @@ function renderTodos() {
             var completeElement = document.createElement('input');
             completeElement.type = "checkbox"
             completeElement.className = "check-complete"
-            var linkText = document.createTextNode('X ');
+            var linkText = document.createTextNode('X');
             var okElement = document.createElement('a');
             okElement.setAttribute('href', '#')
             okElement.setAttribute('id', 'todos')
@@ -36,9 +36,9 @@ function renderTodos() {
             }
             linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')')
             linkElement.appendChild(linkText);
+            todoElement.appendChild(completeElement);
             todoElement.appendChild(linkElement);
             todoElement.appendChild(okElement);
-            todoElement.appendChild(completeElement);
             listElement.appendChild(todoElement);
             pos = pos + 1
         }
