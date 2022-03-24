@@ -8,6 +8,7 @@
     .input-group {
         display: flex;
         flex-direction: row;
+        margin-left: 2%;
     }
     
     .input-group * {
