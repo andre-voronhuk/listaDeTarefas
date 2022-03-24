@@ -114,3 +114,15 @@
     #app input:hover {
         cursor: pointer;
     }
+    
+    @media screen and (max-width: 900px) {
+        #app button {
+            text-align: center !important;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        #todos {
+            font-size: 70%;
+        }
+    }
