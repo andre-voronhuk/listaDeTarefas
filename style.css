@@ -103,6 +103,7 @@
         margin: 3px;
         box-shadow: 0 0 0 0;
         outline: 0;
+        justify-content: space-around;
     }
     
     #app button:hover {
