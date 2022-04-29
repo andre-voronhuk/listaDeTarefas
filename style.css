@@ -79,6 +79,10 @@
         flex-direction: column;
         height: 700px;
     }
+
+    #app input[type=checkbox] {
+    cursor: pointer;
+    }
     
     #todolist {
         padding: 2%;
