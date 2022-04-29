@@ -81,7 +81,7 @@
     }
 
     #app input[type=checkbox] {
-    cursor: pointer;
+    cursor: pointer !important;
     }
     
     #todolist {
